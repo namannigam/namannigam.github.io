@@ -60,6 +60,3 @@ plainwhite:
   sitemap: true
 
 show_excerpts: true
-
-include: favicon.ico
-logo: /assets/portfolio.png

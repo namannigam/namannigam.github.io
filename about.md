@@ -1,6 +1,5 @@
 ---
 layout: info
-title: About
+title: About Me
+redirect_to "https://github.com/namannigam#"
 ---
-![me]({{ site.baseurl }}/assets/profile/dp.jpg "About me"){: class="right_30" }
-Hi! I am Naman.
