@@ -1,0 +1,65 @@
+title: Naman Nigam's Blog
+email: namannigam12@gmail.com
+description: >-
+  Blog about high and low level system designs.
+baseurl: "/"
+
+timezone: Asia/Kolkata
+encoding: utf-8
+plugins:
+  - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-default-layout
+
+future: false
+strict_front_matter: true
+
+gist:
+  noscript: false
+highlighter: rouge
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Naman Nigam"
+      baseurl: "/posts/"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+      author: "Naman Nigam"
+      baseurl: "/projects/"
+
+remote_theme: thelehhman/plainwhite-jekyll
+plainwhite:
+  portfolio_image: assets/dp.jpg
+  name: Naman Nigam
+  tagline: |
+    Software Developer,
+    Flipkart, India
+  date_format: "%b %-d, %Y"
+
+  social_links:
+    twitter: aBitOfNaman
+    github: namannigam
+    linkedIn: in/namannigam
+
+  navigation:
+    - title: Posts
+      url: "/"
+    - title: About
+      url: "/about"
+
+  sitemap: true
+
+show_excerpts: true
+
+include: favicon.ico
+logo: /assets/portfolio.png
