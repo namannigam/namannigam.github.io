@@ -41,6 +41,8 @@ plainwhite:
       url: "/posts"
     - title: Projects
       url: "/projects"
+    - title: Pages
+      url: "/pages"
     - title: About
       url: "/about"
 
