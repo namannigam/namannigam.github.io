@@ -28,14 +28,21 @@ defaults:
     values:
       layout: "post"
       author: "Naman Nigam"
-      baseurl: "/posts/"
+      baseurl: "/posts"
   - scope:
       path: ""
       type: "projects"
     values:
       layout: "project"
       author: "Naman Nigam"
-      baseurl: "/projects/"
+      baseurl: "/projects"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+      author: "Naman Nigam"
+      baseurl: "/pages"
 
 remote_theme: thelehhman/plainwhite-jekyll
 plainwhite:
@@ -53,7 +60,9 @@ plainwhite:
 
   navigation:
     - title: Posts
-      url: "/"
+      url: "/posts"
+    - title: Projects
+      url: "/projects"
     - title: About
       url: "/about"
 
