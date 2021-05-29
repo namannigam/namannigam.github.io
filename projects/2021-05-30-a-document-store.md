@@ -1,8 +1,7 @@
 ---
 layout: project
-title:  "Document Store - Dynamic Configuration Management"
-date:   2021-05-30 18:00:00 +0530
-relative_url: /a-dynamic-config-store.html
+title:  "Dynamic Configuration Management"
+date:   2021-05-29 18:00:00 +0530
 categories: [system-design]
 tags: [Design, Config-Management]
 published: true

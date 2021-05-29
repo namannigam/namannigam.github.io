@@ -11,7 +11,7 @@ plugins:
   - jekyll-redirect-from
   - jekyll-default-layout
 
-future: true
+future: false
 strict_front_matter: true
 
 gist:
