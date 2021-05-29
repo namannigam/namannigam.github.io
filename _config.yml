@@ -38,9 +38,9 @@ plainwhite:
 
   navigation:
     - title: Posts
-      url: "/posts"
+      url: "/blog"
     - title: Projects
-      url: "/projects"
+      url: "/learning"
     - title: About
       url: "/about"
 
