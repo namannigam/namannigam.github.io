@@ -11,7 +11,7 @@ plugins:
   - jekyll-redirect-from
   - jekyll-default-layout
 
-future: false
+future: true
 strict_front_matter: true
 
 gist:
@@ -21,30 +21,8 @@ kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
 
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      author: "Naman Nigam"
-      baseurl: "/posts"
-  - scope:
-      path: ""
-      type: "projects"
-    values:
-      layout: "project"
-      author: "Naman Nigam"
-      baseurl: "/projects"
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "page"
-      author: "Naman Nigam"
-      baseurl: "/pages"
-
 remote_theme: thelehhman/plainwhite-jekyll
+
 plainwhite:
   portfolio_image: assets/dp.jpg
   name: Naman Nigam
