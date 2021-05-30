@@ -24,7 +24,6 @@ kramdown:
 remote_theme: thelehhman/plainwhite-jekyll
 
 plainwhite:
-  portfolio_image: assets/profile/dp.jpg
   name: Naman Nigam
   tagline: |
     Software Developer,
