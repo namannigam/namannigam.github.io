@@ -3,7 +3,7 @@ layout: post
 title:  "Dynamic Configuration Management"
 date:   2021-05-30 14:00:00 +0530
 tags: [SystemDesign, ConfigManagement]
-published: true
+published: false
 ---
 
 user/state
