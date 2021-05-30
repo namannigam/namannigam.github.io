@@ -8,5 +8,5 @@ published: true
 ---
 
 High Level Design:
-![DocumentStore]({{ site.baseurl }}/assets/projects/DocumentStore.png){: class="center_85" }
+![DocumentStore]({{ site.baseurl }}/assets/projects/DocumentStore.png){: class="center_50" }
 
