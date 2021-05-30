@@ -2,7 +2,7 @@ title: Naman Nigam's Blog
 email: namannigam12@gmail.com
 description: >-
   Blog about high and low level system designs.
-baseurl: "/"
+baseurl: ""
 url: "https://namannigam.github.io"
 
 timezone: Asia/Kolkata
@@ -32,15 +32,15 @@ plainwhite:
   date_format: "%b %-d, %Y"
 
   social_links:
-    twitter: aBitOfNaman
     github: namannigam
+    twitter: aBitOfNaman
     linkedIn: in/namannigam
 
   navigation:
     - title: Posts
-      url: "/blog"
+      url: "/posts"
     - title: Projects
-      url: "/learning"
+      url: "/projects"
     - title: About
       url: "/about"
 
