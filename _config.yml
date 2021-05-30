@@ -43,6 +43,8 @@ plainwhite:
       url: "/projects"
     - title: About
       url: "/about"
+    - title: Profile
+      url: "/profile"
 
   sitemap: true
 
