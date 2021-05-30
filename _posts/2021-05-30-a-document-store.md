@@ -4,7 +4,6 @@ title:  "Dynamic Configuration Management"
 date:   2021-05-30 18:00:00 +0530
 tags: [System-Design, Config-Management]
 published: true
-permalink: /a-document-store
 ---
 
 user/state

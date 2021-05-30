@@ -3,4 +3,7 @@
 
 @import "plain";
 
-@import "posts";
+{%- if site.plainwhite.dark_mode -%}
+  @import "toggle";
+  @import "dark";
+{%- endif -%}
