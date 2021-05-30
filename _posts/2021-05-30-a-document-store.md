@@ -2,7 +2,7 @@
 layout: post
 title:  "Dynamic Configuration Management"
 date:   2021-05-30 14:00:00 +0530
-tags: [System-Design, Config-Management]
+tags: [SystemDesign, ConfigManagement]
 published: true
 ---
 
