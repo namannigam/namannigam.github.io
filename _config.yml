@@ -39,11 +39,9 @@ plainwhite:
   navigation:
     - title: Posts
       url: "/posts"
-    - title: Projects
-      url: "/projects"
     - title: About
       url: "/about"
-    - title: Profile
+    - title: Hire Me!
       url: "/profile"
 
   sitemap: true
