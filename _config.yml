@@ -3,13 +3,13 @@ email: namannigam12@gmail.com
 description: >-
   Blog about high and low level system designs.
 baseurl: "/"
+url: "https://namannigam.github.io"
 
 timezone: Asia/Kolkata
 encoding: utf-8
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
-  - jekyll-default-layout
 
 future: false
 strict_front_matter: true
