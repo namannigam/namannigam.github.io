@@ -41,8 +41,6 @@ plainwhite:
       url: "/posts"
     - title: About
       url: "/about"
-    - title: Hire Me!
-      url: "/profile"
 
   sitemap: true
 
