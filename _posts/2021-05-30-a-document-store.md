@@ -31,7 +31,7 @@ Primary components to build the complete interaction of end users with such a st
 - <u>**Console**</u>: A layer for receiving updates over the configurations.
 - <u>**Cache**</u>: A guardrail towards the service and persistence layer against the throughput.
 
-![DocumentStoreSystem]({{ site.baseurl }}/assets/projects/DocumentStoreComponents.png){: class="center_85" }
+![DocumentStoreSystem]({{ site.baseurl }}/assets/projects/blob/DocumentStoreComponents.png){: class="center_85" }
 
 ### Entities
 
@@ -43,9 +43,13 @@ Entities involved in designing the system based on our requirements were broadly
 - **Rule**: Construct per documentType to define the rules for a document belonging to a namespace.
 - **UpdateHistory**: History of a client's update transitively derived by a document update.
 
-![DocumentStoreEntities]({{ site.baseurl }}/assets/projects/DocumentStoreEntities.png){: class="center_85" }
+![DocumentStoreEntities]({{ site.baseurl }}/assets/projects/blob/DocumentStoreEntities.png){: class="center_85" }
 
 ### Interaction
+
+Interaction between the components could be illustrated as below:
+
+![DocumentStoreEntities]({{ site.baseurl }}/assets/projects/blob/DocumentStoreComponents.png){: class="center_85" }
 
 ### Learnings
 
