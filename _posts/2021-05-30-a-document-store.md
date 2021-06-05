@@ -27,11 +27,11 @@ require additional:
 
 Primary components to build the complete interaction of end users with such a store involved:
 
-- <u>**Consumer API**</u>: An aggregator layer that the clients could talk to understand when to ask for which layouts.
-- <u>**Document Store**</u>: A web service to serve the configurations persisted.
-- <u>**DataSore**</u>: The persistence layer for the various types of configurations dealt with.
-- <u>**Console**</u>: A layer for receiving updates over the configurations.
-- <u>**Cache**</u>: A guardrail towards the service and persistence layer against the throughput.
+- **<u>Consumer API</u>**: An aggregator layer that the clients could talk to understand when to ask for which layouts.
+- **<u>Document Store</u>**: A web service to serve the configurations persisted.
+- **<u>DataSore</u>**: The persistence layer for the various types of configurations dealt with.
+- **<u>Console</u>**: A layer for receiving updates over the configurations.
+- **<u>Cache/u>**: A guardrail towards the service and persistence layer against the throughput.
 
 ![DocumentStoreSystem]({{ site.baseurl }}/assets/projects/blob/DocumentStoreComponents.png){: class="center_85" }
 
@@ -51,7 +51,7 @@ Entities involved in designing the system based on our requirements were broadly
 
 Interaction between the components could be illustrated as below:
 
-![DocumentStoreEntities]({{ site.baseurl }}/assets/projects/blob/DocumentStoreComponents.png){: class="center_85" }
+![DocumentStoreEntities]({{ site.baseurl }}/assets/projects/blob/DocumentStoreInteractions.png){: class="center_85" }
 
 ### Learnings
 
