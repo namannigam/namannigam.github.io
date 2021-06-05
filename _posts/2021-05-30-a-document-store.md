@@ -5,6 +5,7 @@ date:   2021-06-05 21:00:00 +0530
 tags: [SystemDesign, ConfigManagement]
 published: true
 ---
+Service to manage configurations provided dynamically to end-user applications.
 
 ### Requirement
 
