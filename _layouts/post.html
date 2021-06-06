@@ -19,7 +19,7 @@ layout: default
     <div class="post">
         {{ content }}
     </div>
-    {%- if site.plainwhite.disqus_shortname -%}
+    {% if page.comments %}
     <div id="disqus_thread" style="margin-top:25px"></div>
     <script>
         $(function(){

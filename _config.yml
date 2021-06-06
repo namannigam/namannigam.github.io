@@ -46,8 +46,6 @@ plainwhite:
 
   sitemap: true
 
-  disqus_shortname: nigamnaman
-
   condensed_mobile:
     - home
     - post
