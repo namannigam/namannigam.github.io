@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Dynamic Configuration Management"
+title:  "Document Store - Configuration Management"
 date:   2021-06-05 21:00:00 +0530
 tags: [SystemDesign, ConfigManagement]
 published: true
@@ -9,20 +9,20 @@ Service to manage configurations provided dynamically to end-user applications.
 
 ### Requirement
 
-Home page and product pages are very crucial landing aspects for e-commerce customers. Continuous evolution of the user
-experience, would require frequent business changes on such pages. Application rollouts for these changes mostly get
+Home page and product pages are crucial landing aspects for e-commerce customers. Continuous evolution of the user
+experience, would demand frequent business changes on such pages. Application rollouts for these changes mostly get
 coupled with other feature development and also places a risk of putting off customers with frequent downloads.
 
 ### Solution
 
-First thought towards solving this problem is to be able to _dynamically load configurations_ mapped to each business
-requirement without frontend deployment. The underlying capabilities of a service providing these configurations would
+Initial thought towards solving this problem is to be able to _dynamically load configurations_ mapped to each business
+requirement without frontend deployments. The underlying capabilities of a service providing these configurations would
 require additional:
 
 - _namespacing_: after all, we wouldn't want to fetch web product page layout on android homepage!
 - _versioning_: not all versions of your application in the market would support each layout enhancement for a page!
-- _update history_: we wouldn't want to eagerly fetch all these layouts from server, unless they are not updated!
-- _tags_: wouldn't you require to just query documents based on certain attributes!
+- _auditing_: we wouldn't want to eagerly fetch all these layouts from server, unless they are not updated!
+- _tagging_: wouldn't you require to just query documents based on certain attributes?
 
 ### System Components
 
@@ -50,14 +50,15 @@ Entities involved in designing the system based on our requirements were broadly
 
 ### Interaction
 
-Interaction between the components could be illustrated as below:
+Interaction between these components and the entities involved could be illustrated as below:
 
 ![DocumentStoreEntities]({{ site.baseurl }}/assets/projects/blob/DocumentStoreInteractions.png){: class="center_85" }
 
 ### Learnings
 
-During the time I had spent on the project, the feature asks for which I was at the receiving end, and the production
-incidents that I had come across definitely made me learn that:
+Document store was one of the projects to get me kick-started with the RESTful web service development. During the time
+I had spent on the project, the feature asks for which I was at the receiving end, and the production incidents that I
+had come across definitely made me learn:
 
 1. Namespacing convention provided us an ease in scaling for other pages such as flyout, landing pages, banners etc. to
    board the service.
