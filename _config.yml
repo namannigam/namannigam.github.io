@@ -29,13 +29,12 @@ plainwhite:
   portfolio_image: "assets/portfolio.png"
   name: Naman Nigam
   tagline: |
-    Software Developer,
-    Flipkart, India
+    Software Developer
+    Bengaluru, India
   date_format: "%b %-d, %Y"
 
   social_links:
     github: namannigam
-    twitter: aBitOfNaman
     linkedIn: in/namannigam
 
   navigation:
