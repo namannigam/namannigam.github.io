@@ -2,7 +2,7 @@
 layout: post
 title:  "C Programming before and beyond main()"
 date:   2015-02-11 21:00:00 +0530
-tags: [Concept, C++]
+tags: [Concept, C/C++]
 published: true
 comments: true
 ---
