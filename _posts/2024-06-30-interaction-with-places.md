@@ -14,7 +14,7 @@ First of the steps in a user's journey on a platform brings along the need to ca
 that is supposed to be carried forward. This brings along an interesting problem to solve for: _showcase relevant results_ 
 in context of a business and build over a _user selection_ for future relevance.
 
-### Solution
+### Approach
 
 The problem at hand is not very new, yet the building of context particular to a business with possible 
 optimisations and enrichment of the data brings in complexities to solve for. These are accompanied by -
@@ -40,15 +40,16 @@ at higher throughput.
 
 There are majorly two user flows around the integration for a location selection:
 1. typing to fetch a list of suggestions and
-
-![AutocompleteSeq]({{ site.baseurl }}/assets/projects/blob/places/AutocompleteSeq.png){: class="center_85" }
+   ![AutocompleteSeq]({{ site.baseurl }}/assets/projects/blob/places/AutocompleteSeq.png){: class="center_85" }
 
 2. selecting to get more details of an element
-![DetailsSeq]({{ site.baseurl }}/assets/projects/blob/places/DetailsSeq.png){: class="center_85" }
+   ![DetailsSeq]({{ site.baseurl }}/assets/projects/blob/places/DetailsSeq.png){: class="center_85" }
 
 ### Entities
 
-Entities involved in designing the system based on our requirements were broadly the following:
+While the platform offers a simple integration of places and its details. With the consideration that every
+building searched for is another place in itself, we could carve out an identifier such as a place type with Building,
+Metro being the first few use cases onboarding it right away. Entities involved in designing the system based on our requirements were broadly the following:
 
 - **Place**: Representation of a location with type identifiers, suggesters and other relevant attributes.
 - **Building**: Category of places meant to represent a Society or a Project.
@@ -56,12 +57,6 @@ Entities involved in designing the system based on our requirements were broadly
 - **Locality**: Category to represent a boundary driven region for searches.
 
 ![PlacesEntity]({{ site.baseurl }}/assets/projects/blob/places/PlacesEntity.png){: class="center_85" }
-
-### Extensibility
-
-While the platform offers a simple integration of places and its details. With the consideration that every 
-building searched for is another place in itself, we could carve out an identifier such as a place type with Building,
-Metro being the first few use cases onboarding it right away. 
 
 ### Learnings
 
