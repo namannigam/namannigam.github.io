@@ -44,17 +44,18 @@ There are majorly two user flows around the integration for a location selection
 ![AutocompleteSeq]({{ site.baseurl }}/assets/projects/blob/places/AutocompleteSeq.png){: class="center_85" }
 
 2. selecting to get more details of an element
-
 ![DetailsSeq]({{ site.baseurl }}/assets/projects/blob/places/DetailsSeq.png){: class="center_85" }
 
 ### Entities
 
 Entities involved in designing the system based on our requirements were broadly the following:
 
-- **Place**: Representation of each team onboarded to the service, for instance mobile, ads, games, etc.
-- **Building**: Type specification for logical grouping of a set of documents, for example appConfigs
-- **Metro**: The actual documents with updates, versioning, values to reflect as configurations etc.
+- **Place**: Representation of a location with type identifiers, suggesters and other relevant attributes.
+- **Building**: Category of places meant to represent a Society or a Project.
+- **Metro**: Category of places to represent metro stations and facilitate a view of metro lines.
+- **Locality**: Category to represent a boundary driven region for searches.
 
+![PlacesEntity]({{ site.baseurl }}/assets/projects/blob/places/PlacesEntity.png){: class="center_85" }
 
 ### Extensibility
 
