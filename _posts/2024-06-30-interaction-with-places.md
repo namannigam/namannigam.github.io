@@ -29,11 +29,10 @@ ensuring a single responsible layer to interact with public third parties.
 
 Primary components to build the complete interaction of end users with such an application involved:
 
-- **<u>Tenants</u>**: Various services with which the consumer clients can integrate based upon interaction. 
-e.g. P&M, Rental Search etc.
+- **<u>Tenants</u>**: Services with which the consumer clients can integrate based upon interaction. e.g. P&M, Rental Search etc.
 - **<u>Places</u>**: A web based application, serving per tenant place suggestions and details.
 - **<u>DataStore</u>**: The persistence layer for data such as Elasticsearch over meaningful places in context of the business. 
-- **<u>Queue</u>**: A messaging queue such as Kafka to perform asynchronous operations ensuring non-blocking execution 
+- **<u>Queue</u>**: Messaging queue such as Kafka to perform async operations ensuring non-blocking execution 
 at higher throughput.
 
 ### Interaction
