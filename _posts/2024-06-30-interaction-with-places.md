@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "Places - Platform Offering"
-date:   2024-06-30 21:00:00 +0530
+date:   2024-06-27 09:00:00 +0530
 tags: [SystemDesign, GooglePlaces, Customisation]
-published: false
+published: true
 comments: true
 ---
 Platform to capture user location input and serve interaction across businesses centrally.
