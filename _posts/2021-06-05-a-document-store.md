@@ -31,7 +31,7 @@ Primary components to build the complete interaction of end users with such a st
 
 - **<u>Consumer API</u>**: An aggregator layer that the clients could talk to understand when to ask for which layouts.
 - **<u>Document Store</u>**: A web service to serve the configurations persisted.
-- **<u>DataSore</u>**: The persistence layer for the various types of configurations dealt with.
+- **<u>DataStore</u>**: The persistence layer for the various types of configurations dealt with.
 - **<u>Console</u>**: A layer for receiving updates over the configurations.
 - **<u>Cache</u>**: A guardrail towards the service and persistence layer against the throughput.
 
