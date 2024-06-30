@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Places - Platform Offering"
+title:  "Places - Multitenant Microservice"
 date:   2024-06-30 21:00:00 +0530
 tags: [SystemDesign, GooglePlaces, Customisation]
 published: true
