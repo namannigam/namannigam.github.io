@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Places - Platform Offering"
-date:   2024-06-27 09:00:00 +0530
+date:   2024-06-30 21:00:00 +0530
 tags: [SystemDesign, GooglePlaces, Customisation]
 published: true
 comments: true
@@ -59,3 +59,7 @@ Metro being the first few use cases onboarding it right away. Entities involved 
 
 ### Learnings
 
+With the evolution of the platform and the requirements posed further, one of the key learnings has been the 
+importance of the quality/authenticity of information associated with the places, which is derived which is currently a
+user generated content moderated and curated by Google. With our intermediate store, we would though be in need to 
+seek some data duplication and structuring of the data for self to be holding much more relevance towards the user searches.
