@@ -57,9 +57,9 @@ Metro being the first few use cases onboarding it right away. Entities involved 
 
 ![PlacesEntity]({{ site.baseurl }}/assets/projects/blob/places/PlacesEntity.png){: class="center_85" }
 
-### Learnings
+### Takeaways
 
-With the evolution of the platform and the requirements posed further, one of the key learnings has been the 
-importance of the quality/authenticity of information associated with the places, which is derived which is currently a
-user generated content moderated and curated by Google. With our intermediate store, we would though be in need to 
-seek some data duplication and structuring of the data for self to be holding much more relevance towards the user searches.
+ - With the evolution of the platform and the requirements posed further, one of the key learnings has been the 
+importance of the quality/authenticity of information associated with the places, which is currently a user generated 
+content moderated and curated by Google. With our intermediate store, we would though be in need to seek some data 
+duplication and refinement to be holding much more relevance towards the user searches.
